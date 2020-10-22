@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/header.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <img class="header__logo" src="./assets/logo.png" alt="Company logo">
+    </a>
+    <div class="header__wrapper">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li>
+            <a href="#">One</a>
+            <ul class="header__list-dropdown">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Two</a>
+            <ul class="header__list-dropdown">
+              <li><a href="#">Item 4</a></li>
+              <li><a href="#">Item 5</a></li>
+              <li><a href="#">Item 6</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Three</a>
+            <ul class="header__list-dropdown">
+              <li><a href="#">Item 7</a></li>
+              <li><a href="#">Item 8</a></li>
+              <li><a href="#">Item 9</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button-login">Log in</button>
+      <button class="header__button-signup">Sign up</button>
+      <input
+        class="toggler"
+        id="toggler"
+        type="checkbox"
+      >
+      <label for="toggler" class="button"><div class="bar"></div></label>
+      <div class="header__dropdown">
+        <ul class="header__dropdown-list">
+          <input
+            class="toggler"
+            id="toggler-list1"
+            type="checkbox"
+          >
+          <label class="toggler-label" for="toggler-list1">
+            <li class="header__dropdown-list-item">
+              <img class="icon" src="./assets/man.svg" alt="">
+              <img class="icon-active" src="./assets/manYellow.svg" alt="">
+              One
+              <img class="plus" src="./assets/plus.svg" alt="">
+            </li>
+            <ul class="header__dropdown-droplist">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </label>
+          <input
+            class="toggler"
+            id="toggler-list2"
+            type="checkbox"
+          >
+          <label class="toggler-label" for="toggler-list2">
+            <li class="header__dropdown-list-item">
+              <img class="icon" src="./assets/presentation.svg" alt="">
+              <img class="icon-active" src="./assets/presentationYellow.svg" alt="">
+
+              Two
+              <img class="plus" src="./assets/plus.svg" alt="">
+            </li>
+            <ul class="header__dropdown-droplist">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </label>
+
+          <input
+            class="toggler"
+            id="toggler-list3"
+            type="checkbox"
+          >
+          <label class="toggler-label" for="toggler-list3">
+            <li class="header__dropdown-list-item">
+              <img class="icon" src="./assets/pantheon.svg" alt="">
+              <img class="icon-active" src="./assets/pantheonYellow.svg" alt="">
+
+              Three
+              <img class="plus" src="./assets/plus.svg" alt="">
+            </li>
+            <ul class="header__dropdown-droplist">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </label>
+        </ul>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
